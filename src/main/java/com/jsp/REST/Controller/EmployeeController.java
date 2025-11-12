@@ -27,6 +27,7 @@ import lombok.AllArgsConstructor;
 public class EmployeeController {
 	@Autowired
 	EmployeeService service;
+	//it is controller
 	
 	@PostMapping("/employee")
 	@ResponseStatus(value = HttpStatus.CREATED)
